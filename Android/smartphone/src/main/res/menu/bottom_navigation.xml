@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_bluetooth"
+        android:icon="@drawable/ic_bluetooth_black_24dp"
+        android:title="Bluetooth" />
+
+    <item
+        android:id="@+id/nav_study"
+        android:checkable="false"
+        android:icon="@drawable/ic_poll_black_24dp"
+        android:title="Study" />
+
+    <item
+        android:id="@+id/nav_control_center"
+        android:icon="@drawable/ic_videogame_asset_black_24dp"
+        android:title="Control Center" />
+</menu>

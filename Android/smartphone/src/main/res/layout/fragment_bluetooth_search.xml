@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bluetooth_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context="de.luh.hci.btconnect.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/StartScanButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Scan" />
+
+            <Button
+                android:id="@+id/StopScanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Stop Scanning" />
+
+            <Button
+                android:id="@+id/DisconnectButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Disconnect" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/BLEcmd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:singleLine="true"
+                android:layout_weight=".75"/>
+            <Button
+                android:id="@+id/BLEsend"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Send"
+                android:layout_weight=".25"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/BLEList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="30"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+include ':smartphone'
+rootProject.name='BTConnect'
+include ':wearable'
+include ':shared'
