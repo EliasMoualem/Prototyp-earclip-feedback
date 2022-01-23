@@ -7,3 +7,4 @@ The app controlls each of the feedback modalitites in defined intervalls and exp
 ![Screenshot_20200809-130321](https://user-images.githubusercontent.com/19752430/150684869-96d3d35b-ffc6-461d-8771-d0199a6797eb.png)
 ![Screenshot_20200831-211752](https://user-images.githubusercontent.com/19752430/150684873-5b91328e-db11-4c13-a244-ce3f840f76ad.png)
 ![Screenshot_20200913-165749](https://user-images.githubusercontent.com/19752430/150684874-a13497ae-9404-45f6-8287-e032c92bca4b.png)
+![Screenshot_20200831-211746](https://user-images.githubusercontent.com/19752430/150685061-ff7925ac-cc96-400a-a0b6-2689a3e0e688.png)
